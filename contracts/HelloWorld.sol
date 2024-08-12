@@ -4,7 +4,7 @@ pragma solidity >=0.7.0 <0.9.0;
 contract HelloWorld {
     uint256 contractNumber;
 
-    function set(uint number) public {
+    function set(uint256 number) public {
         contractNumber = number;
     }
 
